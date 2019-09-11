@@ -1,0 +1,40 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+	width: 50%;
+	margin: 1.5em auto;
+	box-shadow: 1px 1px 4px;
+	border-radius: 15px;
+	padding: 1.25em;
+}
+
+.month .month{
+	border-bottom: 1px solid #777;
+	color: #b59980;
+	font-size: 24px;
+	padding: 1em;
+}
+
+td{
+	padding: 1em;
+	text-align: center;
+}
+
+th{
+	padding: 1.25em;
+}
+
+td:not(:last-child){
+	border-right: 1px solid #777;
+}
+
+tr:nth-child(2){
+	background-color: #aaa;
+	color: #0079bf;
+}
+
+h1{
+	text-align: center;
+}
